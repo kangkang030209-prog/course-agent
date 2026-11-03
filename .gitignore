@@ -1,0 +1,19 @@
+# virtual environments
+.venv/
+venv/
+
+# environment secrets
+.env
+
+# python caches
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# RAG artifacts
+chroma_db/
+*.parquet
+
+# IDE
+.idea/
+.vscode/

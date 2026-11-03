@@ -1,0 +1,26 @@
+# ---- core web / config ----
+fastapi>=0.110
+uvicorn[standard]>=0.29
+pydantic>=2.6
+pydantic-settings>=2.2
+python-dotenv>=1.0
+
+# ---- LLM (DeepSeek via OpenAI-compatible endpoint through LangChain) ----
+langchain>=0.2
+langchain-core>=0.2
+langchain-openai>=0.1
+langgraph>=0.2
+
+# ---- RAG / vector store ----
+chromadb>=0.4
+langchain-chroma>=0.1
+langchain-huggingface>=0.0.2
+langchain-text-splitters>=0.2
+sentence-transformers>=2.6
+
+# ---- MCP ----
+mcp>=1.0
+langchain-mcp-adapters>=0.0.4
+
+# ---- testing ----
+pytest>=8.0
